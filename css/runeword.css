@@ -1,0 +1,76 @@
+body {
+    background-color: black;
+    color: #afafaf;
+}
+
+#hidden {
+    display: none;
+}
+
+h1, h3 {
+    text-align: center;
+    color: #908858;
+}
+
+th {
+    font-weight: bold;
+    font-size: 1.0em;
+    color: #908858;
+    text-align: left;
+}
+
+#results th {
+    text-align: center;
+}
+
+#results {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#results tr:nth-child(even) {
+    background-color: #20100a;
+}
+
+.rwBases {
+    max-width: 400px;
+    font-size: 0.75em;
+}
+
+.rwName {
+    max-width: 135px;
+    color: #908858;
+    font-size: 0.75em;
+    font-weight: bolder;
+}
+
+.rwRunes {
+    max-width: 300px;
+    font-size: 0.75em;
+}
+
+.rwStats {
+    max-width: 660px;
+    color: #4850B8;
+    font-size: 0.75em;
+}
+
+#filters {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+label {
+    font-size: 0.75em;
+    text-align: center;
+}
+
+#boxes_diablo2 {
+    border: 40px solid transparent;
+    padding: 0px;
+    -webkit-border-image: url("../img/boxes-diablo2.png") 40 round;
+    -o-border-image: url("../img/boxes-diablo2.png") 40 round;
+    border-image: url("../img/boxes-diablo2.png") 40 round;
+    background-color: rgba(47, 12, 16, 0.42);
+}
