@@ -1,7 +1,7 @@
 {
 	"name": "d2toolbox",
-	"version": "1.1.0",
-	"description": "Multiple tools to make playing Diablo 2 easier.",
+	"version": "1.2.0",
+	"description": "Multiple tools to make playing Diablo 2 easier. Runewords for Diablo 2 Resurrected Ladder 1 and Project Diablo 2 Season 4.",
 	"main": "main.js",
 	"scripts": {
 		"start": "electron .",
