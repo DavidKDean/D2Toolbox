@@ -3,6 +3,10 @@ body {
     color: #afafaf;
 }
 
+a {
+    color: #769ce6;
+}
+
 #hidden {
     display: none;
 }

@@ -1,6 +1,6 @@
 {
 	"name": "d2toolbox",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"description": "Multiple tools to make playing Diablo 2 easier.",
 	"main": "main.js",
 	"scripts": {
@@ -10,6 +10,7 @@
 	},
 	"build": {
 		"appId": "com.electron.d2toolbox",
+		"productName": "Diablo 2 Toolbox",
 		"win": {
 			"target": "nsis",
 			"icon": "img/icon.ico"
@@ -19,7 +20,10 @@
 	"author": "David Kirby Dean",
 	"license": "UNLICENSED",
 	"devDependencies": {
-		"electron": "^13.2.1",
-		"electron-builder": "^22.11.7"
+		"electron": "^18.2.0",
+		"electron-builder": "^23.0.3"
+	},
+	"dependencies": {
+		"yarn": "^1.22.18"
 	}
 }

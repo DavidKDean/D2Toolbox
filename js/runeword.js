@@ -54,11 +54,14 @@ function getRws() {
 	var RWSet = document.getElementById('rwSet');
 	var xmlSet = '';
 	switch (RWSet.value) {
-		case 'lod':
-			xmlSet = 'xml/lod.xml';
+		case 'd2r24':
+			xmlSet = 'xml/d2r 2.4.xml';
 			break;
 		case 'd2r':
 			xmlSet = 'xml/d2r.xml';
+			break;
+		case 'lod':
+			xmlSet = 'xml/lod.xml';
 			break;
 		case 'pd2S1':
 			xmlSet = 'xml/pd2_s1.xml';
@@ -68,6 +71,9 @@ function getRws() {
 			break;
 		case 'pd2S3':
 			xmlSet = 'xml/pd2_s3.xml';
+			break;
+		case 'pd2S4':
+			xmlSet = 'xml/pd2_s4.xml';
 			break;
 		default:
 			alert('ERROR: Invalid Runeword Set Selected.');
