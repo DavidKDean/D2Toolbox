@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Runes>
+    <Rune>
+        <Image>../img/runes/r01el.png</Image>
+        <Number>1</Number>
+        <Name>El</Name>
+        <cLvl>11</cLvl>
+        <ArmorShieldBonuses1>+15 Defense</ArmorShieldBonuses1>
+        <ArmorShieldBonuses2>+1 To Light Radius</ArmorShieldBonuses2>
+        <WeaponBonuses1>+50 To Attack Ratin</WeaponBonuses1>
+        <WeaponBonuses2>+1 Light Radius</WeaponBonuses2>
+        <HoradricCubeRecipe></HoradricCubeRecipe>
+    </Rune>
+    <Rune>
+        <Image>../img/runes/r02eld.png</Image>
+        <Number>2</Number>
+        <Name>Eld</Name>
+        <cLvl>11</cLvl>
+        <ArmorShieldBonuses1>Armor: 15% Slower Stamina Drain</ArmorShieldBonuses1>
+        <ArmorShieldBonuses2>Shield: 7% Increased Chance of Blockin</ArmorShieldBonuses2>
+        <WeaponBonuses1>+75% Damage To Undead</WeaponBonuses1>
+        <WeaponBonuses2>+50 Attack Rating Against Undead</WeaponBonuses2>
+        <HoradricCubeRecipe>3x El</HoradricCubeRecipe>
+    </Rune>
+    <Rune>
+        <Image>../img/runes/r03tir.png</Image>
+        <Number>3</Number>
+        <Name>Tir</Name>
+        <cLvl>13</cLvl>
+        <ArmorShieldBonuses1>+2 To Mana After Each Kill</ArmorShieldBonuses1>
+        <ArmorShieldBonuses2></ArmorShieldBonuses2>
+        <WeaponBonuses1>+2 To Mana After Each Kill</WeaponBonuses1>
+        <WeaponBonuses2></WeaponBonuses2>
+        <HoradricCubeRecipe>3x Eld</HoradricCubeRecipe>
+    </Rune>
+    <Rune>
+        <Image>../img/runes/r04nef.png</Image>
+        <Number>4</Number>
+        <Name>Nef</Name>
+        <cLvl>13</cLvl>
+        <ArmorShieldBonuses1>+30 Defense vs. Missile</ArmorShieldBonuses1>
+        <ArmorShieldBonuses2></ArmorShieldBonuses2>
+        <WeaponBonuses1>Knockback</WeaponBonuses1>
+        <WeaponBonuses2></WeaponBonuses2>
+        <HoradricCubeRecipe>3x Tir</HoradricCubeRecipe>
+    </Rune>
+    <Rune>
+        <Image>../img/runes/r05eth.png</Image>
+        <Number>5</Number>
+        <Name>Eth</Name>
+        <cLvl>15</cLvl>
+        <ArmorShieldBonuses1>Regenerate Mana 15%</ArmorShieldBonuses1>
+        <ArmorShieldBonuses2></ArmorShieldBonuses2>
+        <WeaponBonuses1>25% To Target Defense</WeaponBonuses1>
+        <WeaponBonuses2></WeaponBonuses2>
+        <HoradricCubeRecipe>3x Nef</HoradricCubeRecipe>
+    </Rune>
+    <Rune>
+        <Image>../img/runes/r06ith.png</Image>
+        <Number>6</Number>
+        <Name>Ith</Name>
+        <cLvl>15</cLvl>
+        <ArmorShieldBonuses1>15% Damage Taken Goes to Mana</ArmorShieldBonuses1>
+        <ArmorShieldBonuses2></ArmorShieldBonuses2>
+        <WeaponBonuses1>+9 To Maximum Damage</WeaponBonuses1>
+        <WeaponBonuses2></WeaponBonuses2>
+        <HoradricCubeRecipe>3x Eth</HoradricCubeRecipe>
+    </Rune>
+    <Rune>
+        <Image>../img/runes/r07tal.png</Image>
+        <Number>7</Number>
+        <Name>Tal</Name>
+        <cLvl>17</cLvl>
+        <ArmorShieldBonuses1>Armor: Poison Resist 30%</ArmorShieldBonuses1>
+        <ArmorShieldBonuses2>Shield: Poison Resist 35%</ArmorShieldBonuses2>
+        <WeaponBonuses1>+75 Poison Damage Over 5 Seconds</WeaponBonuses1>
+        <WeaponBonuses2></WeaponBonuses2>
+        <HoradricCubeRecipe>3x Ith</HoradricCubeRecipe>
+    </Rune>
+    <Rune>
+        <Image>../img/runes/r08ral.png</Image>
+        <Number>8</Number>
+        <Name>Ral</Name>
+        <cLvl>19</cLvl>
+        <ArmorShieldBonuses1>Armor: Fire Resist 30%</ArmorShieldBonuses1>
+        <ArmorShieldBonuses2>Shield: Fire Resist 35%</ArmorShieldBonuses2>
+        <WeaponBonuses1>Adds 5-30 Fire Damage</WeaponBonuses1>
+        <WeaponBonuses2></WeaponBonuses2>
+        <HoradricCubeRecipe>3x Tal</HoradricCubeRecipe>
+    </Rune>
+    <Rune>
+        <Image>../img/runes/r09ort.png</Image>
+        <Number>9</Number>
+        <Name>Ort</Name>
+        <cLvl>21</cLvl>
+        <ArmorShieldBonuses1>Armor: Lightning Resist 30%</ArmorShieldBonuses1>
+        <ArmorShieldBonuses2>Shield: Lightning Resist 35%</ArmorShieldBonuses2>
+        <WeaponBonuses1>Adds 1-50 Lightning Damage</WeaponBonuses1>
+        <WeaponBonuses2></WeaponBonuses2>
+        <HoradricCubeRecipe>3x Ral</HoradricCubeRecipe>
+    </Rune>
+    <Rune>
+        <Image>../img/runes/r10thul.png</Image>
+        <Number>10</Number>
+        <Name>Thul</Name>
+        <cLvl>23</cLvl>
+        <ArmorShieldBonuses1>Armor: Cold Resist 30%</ArmorShieldBonuses1>
+        <ArmorShieldBonuses2>Shield: Cold Resist 35%</ArmorShieldBonuses2>
+        <WeaponBonuses1>Adds 3-14 Cold Damage - 3 Second Duration</WeaponBonuses1>
+        <WeaponBonuses2></WeaponBonuses2>
+        <HoradricCubeRecipe>3x Ort</HoradricCubeRecipe>
+    </Rune>
+    <Rune>
+        <Image>../img/runes/r11amn.png</Image>
+        <Number>11</Number>
+        <Name>Amn</Name>
+        <cLvl>25</cLvl>
+        <ArmorShieldBonuses1>Attacker Takes Damage of 14</ArmorShieldBonuses1>
+        <ArmorShieldBonuses2></ArmorShieldBonuses2>
+        <WeaponBonuses1>7% Life Stolen Per Hit</WeaponBonuses1>
+        <WeaponBonuses2></WeaponBonuses2>
+        <HoradricCubeRecipe>3x Thul, 1x Chipped Topaz</HoradricCubeRecipe>
+    </Rune>
+    <Rune>
+        <Image>../img/runes/r12sol.png</Image>
+        <Number>12</Number>
+        <Name>Sol</Name>
+        <cLvl>27</cLvl>
+        <ArmorShieldBonuses1>Damage Reduced By 7</ArmorShieldBonuses1>
+        <ArmorShieldBonuses2></ArmorShieldBonuses2>
+        <WeaponBonuses1>+9 To Minimum Damage</WeaponBonuses1>
+        <WeaponBonuses2></WeaponBonuses2>
+        <HoradricCubeRecipe>3x Amn, 1x Chipped Amethyst</HoradricCubeRecipe>
+    </Rune>
+    <Rune>
+        <Image>../img/runes/r13shael.png</Image>
+        <Number>13</Number>
+        <Name>Shael</Name>
+        <cLvl>29</cLvl>
+        <ArmorShieldBonuses1>Armor: 20% Faster Hit Recovery</ArmorShieldBonuses1>
+        <ArmorShieldBonuses2>Shield: 20% Faster Block Rate</ArmorShieldBonuses2>
+        <WeaponBonuses1>20% Increased Attack Speed</WeaponBonuses1>
+        <WeaponBonuses2></WeaponBonuses2>
+        <HoradricCubeRecipe>3x Sol, 1x Chipped Sapphire</HoradricCubeRecipe>
+    </Rune>
+    <Rune>
+        <Image>../img/runes/r14dol.png</Image>
+        <Number>14</Number>
+        <Name>Dol</Name>
+        <cLvl>31</cLvl>
+        <ArmorShieldBonuses1>Replenish Life +7	</ArmorShieldBonuses1>
+        <ArmorShieldBonuses2></ArmorShieldBonuses2>
+        <WeaponBonuses1>Hit Causes Monster To Flee 25%	</WeaponBonuses1>
+        <WeaponBonuses2></WeaponBonuses2>
+        <HoradricCubeRecipe>3x Shael, 1x Chipped Ruby</HoradricCubeRecipe>
+    </Rune>
+    <Rune>
+        <Image>../img/runes/r15hel.png</Image>
+        <Number>15</Number>
+        <Name>Hel</Name>
+        <cLvl>33</cLvl>
+        <ArmorShieldBonuses1>Requirements -15%</ArmorShieldBonuses1>
+        <ArmorShieldBonuses2></ArmorShieldBonuses2>
+        <WeaponBonuses1>Requirements -20%</WeaponBonuses1>
+        <WeaponBonuses2></WeaponBonuses2>
+        <HoradricCubeRecipe>3x Dol, 1x Chipped Emerald</HoradricCubeRecipe>
+    </Rune>
+    <Rune>
+        <Image>../img/runes/r16io.png</Image>
+        <Number>16</Number>
+        <Name>Io</Name>
+        <cLvl>35</cLvl>
+        <ArmorShieldBonuses1>+10 To Vitality	</ArmorShieldBonuses1>
+        <ArmorShieldBonuses2></ArmorShieldBonuses2>
+        <WeaponBonuses1>+10 To Vitality	</WeaponBonuses1>
+        <WeaponBonuses2></WeaponBonuses2>
+        <HoradricCubeRecipe>3x Hel, 1x Chipped Diamond</HoradricCubeRecipe>
+    </Rune>
+    <Rune>
+        <Image>../img/runes/r17lum.png</Image>
+        <Number>17</Number>
+        <Name>Lum</Name>
+        <cLvl>37</cLvl>
+        <ArmorShieldBonuses1>+10 To Energy</ArmorShieldBonuses1>
+        <ArmorShieldBonuses2></ArmorShieldBonuses2>
+        <WeaponBonuses1>+10 To Energy</WeaponBonuses1>
+        <WeaponBonuses2></WeaponBonuses2>
+        <HoradricCubeRecipe>3x Io, 1x Flawed Topaz</HoradricCubeRecipe>
+    </Rune>
+    <Rune>
+        <Image>../img/runes/r18ko.png</Image>
+        <Number>18</Number>
+        <Name>Ko</Name>
+        <cLvl>39</cLvl>
+        <ArmorShieldBonuses1>+10 To Dexterity</ArmorShieldBonuses1>
+        <ArmorShieldBonuses2></ArmorShieldBonuses2>
+        <WeaponBonuses1>+10 To Dexterity</WeaponBonuses1>
+        <WeaponBonuses2></WeaponBonuses2>
+        <HoradricCubeRecipe>3x Lum, 1x Flawed Amethyst</HoradricCubeRecipe>
+    </Rune>
+    <Rune>
+        <Image>../img/runes/r19fal.png</Image>
+        <Number>19</Number>
+        <Name>Fal</Name>
+        <cLvl>41</cLvl>
+        <ArmorShieldBonuses1>+10 To Strength</ArmorShieldBonuses1>
+        <ArmorShieldBonuses2></ArmorShieldBonuses2>
+        <WeaponBonuses1>+10 To Strength</WeaponBonuses1>
+        <WeaponBonuses2></WeaponBonuses2>
+        <HoradricCubeRecipe>3x Ko, 1x Flawed Sapphire</HoradricCubeRecipe>
+    </Rune>
+    <Rune>
+        <Image>../img/runes/r20lem.png</Image>
+        <Number>20</Number>
+        <Name>Lem</Name>
+        <cLvl>43</cLvl>
+        <ArmorShieldBonuses1>50% Extra Gold From Monsters</ArmorShieldBonuses1>
+        <ArmorShieldBonuses2></ArmorShieldBonuses2>
+        <WeaponBonuses1>75% Extra Gold From Monsters</WeaponBonuses1>
+        <WeaponBonuses2></WeaponBonuses2>
+        <HoradricCubeRecipe>3x Fal, 1x Flawed Ruby</HoradricCubeRecipe>
+    </Rune>
+    <Rune>
+        <Image>../img/runes/r21pul.png</Image>
+        <Number>21</Number>
+        <Name>Pul</Name>
+        <cLvl>45</cLvl>
+        <ArmorShieldBonuses1>+30% Enhanced Defense</ArmorShieldBonuses1>
+        <ArmorShieldBonuses2></ArmorShieldBonuses2>
+        <WeaponBonuses1>+75% Damage To Demons</WeaponBonuses1>
+        <WeaponBonuses2>+100 Attack Rating Against Demons</WeaponBonuses2>
+        <HoradricCubeRecipe>3x Lem, 1x Flawed Emerald</HoradricCubeRecipe>
+    </Rune>
+    <Rune>
+        <Image>../img/runes/r22um.png</Image>
+        <Number>22</Number>
+        <Name>Um</Name>
+        <cLvl>47</cLvl>
+        <ArmorShieldBonuses1>Armor: All Resistances +15</ArmorShieldBonuses1>
+        <ArmorShieldBonuses2>Shield: All Resistances +22</ArmorShieldBonuses2>
+        <WeaponBonuses1>25% Chance of Open Wounds</WeaponBonuses1>
+        <WeaponBonuses2></WeaponBonuses2>
+        <HoradricCubeRecipe>2x Pul, 1x Flawed Diamond</HoradricCubeRecipe>
+    </Rune>
+    <Rune>
+        <Image>../img/runes/r23mal.png</Image>
+        <Number>23</Number>
+        <Name>Mal</Name>
+        <cLvl>49</cLvl>
+        <ArmorShieldBonuses1>Magic Damage Reduced By 7</ArmorShieldBonuses1>
+        <ArmorShieldBonuses2></ArmorShieldBonuses2>
+        <WeaponBonuses1>Prevent Monster Heal</WeaponBonuses1>
+        <WeaponBonuses2></WeaponBonuses2>
+        <HoradricCubeRecipe>2x Um, 1x Topaz</HoradricCubeRecipe>
+    </Rune>
+    <Rune>
+        <Image>../img/runes/r24ist.png</Image>
+        <Number>24</Number>
+        <Name>Ist</Name>
+        <cLvl>51</cLvl>
+        <ArmorShieldBonuses1>25% Better Chance of Getting Magic Items</ArmorShieldBonuses1>
+        <ArmorShieldBonuses2></ArmorShieldBonuses2>
+        <WeaponBonuses1>30% Better Chance of Getting Magic Items</WeaponBonuses1>
+        <WeaponBonuses2></WeaponBonuses2>
+        <HoradricCubeRecipe>2x Mal, 1x Amethyst</HoradricCubeRecipe>
+    </Rune>
+    <Rune>
+        <Image>../img/runes/r25gul.png</Image>
+        <Number>25</Number>
+        <Name>Gul</Name>
+        <cLvl>53</cLvl>
+        <ArmorShieldBonuses1>5% To Maximum Poison Resist</ArmorShieldBonuses1>
+        <ArmorShieldBonuses2></ArmorShieldBonuses2>
+        <WeaponBonuses1>20% Bonus To Attack Rating</WeaponBonuses1>
+        <WeaponBonuses2></WeaponBonuses2>
+        <HoradricCubeRecipe>2x Ist, 1x Sapphire</HoradricCubeRecipe>
+    </Rune>
+    <Rune>
+        <Image>../img/runes/r26vex.png</Image>
+        <Number>26</Number>
+        <Name>Vex</Name>
+        <cLvl>55</cLvl>
+        <ArmorShieldBonuses1>5% To Maximum Fire Resist</ArmorShieldBonuses1>
+        <ArmorShieldBonuses2></ArmorShieldBonuses2>
+        <WeaponBonuses1>7% Mana Stolen Per Hit</WeaponBonuses1>
+        <WeaponBonuses2></WeaponBonuses2>
+        <HoradricCubeRecipe>2x Gul, 1x Ruby</HoradricCubeRecipe>
+    </Rune>
+    <Rune>
+        <Image>../img/runes/r27ohm.png</Image>
+        <Number>27</Number>
+        <Name>Ohm</Name>
+        <cLvl>57</cLvl>
+        <ArmorShieldBonuses1>5% To Maximum Cold Resist</ArmorShieldBonuses1>
+        <ArmorShieldBonuses2></ArmorShieldBonuses2>
+        <WeaponBonuses1>+50% Enhanced Damage</WeaponBonuses1>
+        <WeaponBonuses2></WeaponBonuses2>
+        <HoradricCubeRecipe>2x Vex, 1x Emerald</HoradricCubeRecipe>
+    </Rune>
+    <Rune>
+        <Image>../img/runes/r28lo.png</Image>
+        <Number>28</Number>
+        <Name>Lo</Name>
+        <cLvl>59</cLvl>
+        <ArmorShieldBonuses1>5% To Maximum Lightning Resist</ArmorShieldBonuses1>
+        <ArmorShieldBonuses2></ArmorShieldBonuses2>
+        <WeaponBonuses1>20% Deadly Strike</WeaponBonuses1>
+        <WeaponBonuses2></WeaponBonuses2>
+        <HoradricCubeRecipe>2x Ohm, 1x Diamond</HoradricCubeRecipe>
+    </Rune>
+    <Rune>
+        <Image>../img/runes/r29sur.png</Image>
+        <Number>29</Number>
+        <Name>Sur</Name>
+        <cLvl>61</cLvl>
+        <ArmorShieldBonuses1>Armor: Maximum Mana 5%</ArmorShieldBonuses1>
+        <ArmorShieldBonuses2>Shield: +50 To Mana</ArmorShieldBonuses2>
+        <WeaponBonuses1>Hit Blinds Target</WeaponBonuses1>
+        <WeaponBonuses2></WeaponBonuses2>
+        <HoradricCubeRecipe>2x Lo, 1x Flawless Topaz</HoradricCubeRecipe>
+    </Rune>
+    <Rune>
+        <Image>../img/runes/r30ber.png</Image>
+        <Number>30</Number>
+        <Name>Ber</Name>
+        <cLvl>63</cLvl>
+        <ArmorShieldBonuses1>Damage Reduced by 8%</ArmorShieldBonuses1>
+        <ArmorShieldBonuses2></ArmorShieldBonuses2>
+        <WeaponBonuses1>20% Chance of Crushing Blow</WeaponBonuses1>
+        <WeaponBonuses2></WeaponBonuses2>
+        <HoradricCubeRecipe>2x Sur, 1x Flawless Amethyst</HoradricCubeRecipe>
+    </Rune>
+    <Rune>
+        <Image>../img/runes/r31jah.png</Image>
+        <Number>31</Number>
+        <Name>Jah</Name>
+        <cLvl>65</cLvl>
+        <ArmorShieldBonuses1>Armor: Increase Maximum Life 5%</ArmorShieldBonuses1>
+        <ArmorShieldBonuses2>Shield: +50 Life</ArmorShieldBonuses2>
+        <WeaponBonuses1>Ignore Target's Defense	</WeaponBonuses1>
+        <WeaponBonuses2></WeaponBonuses2>
+        <HoradricCubeRecipe>2x Ber, 1x Flawless Sapphire</HoradricCubeRecipe>
+    </Rune>
+    <Rune>
+        <Image>../img/runes/r32cham.png</Image>
+        <Number>32</Number>
+        <Name>Cham</Name>
+        <cLvl>67</cLvl>
+        <ArmorShieldBonuses1>Cannot Be Frozen</ArmorShieldBonuses1>
+        <ArmorShieldBonuses2></ArmorShieldBonuses2>
+        <WeaponBonuses1>Freeze Target +3</WeaponBonuses1>
+        <WeaponBonuses2></WeaponBonuses2>
+        <HoradricCubeRecipe>2x Jah, 1x Flawless Ruby</HoradricCubeRecipe>
+    </Rune>
+    <Rune>
+        <Image>../img/runes/r33zod.png</Image>
+        <Number>33</Number>
+        <Name>Zod</Name>
+        <cLvl>69</cLvl>
+        <ArmorShieldBonuses1>Indestructible</ArmorShieldBonuses1>
+        <ArmorShieldBonuses2></ArmorShieldBonuses2>
+        <WeaponBonuses1>Indestructible</WeaponBonuses1>
+        <WeaponBonuses2></WeaponBonuses2>
+        <HoradricCubeRecipe>2x Cham, 1x Flawless Emerald</HoradricCubeRecipe>
+    </Rune>
+</Runes>

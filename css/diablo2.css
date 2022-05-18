@@ -7,6 +7,10 @@ a {
     color: #769ce6;
 }
 
+a:link, :visited, :hover, :active {
+    text-decoration: none;
+}
+
 #hidden {
     display: none;
 }
@@ -18,13 +22,32 @@ h1, h3 {
 
 th {
     font-weight: bold;
-    font-size: 1.0em;
+    font-size: 0.90em;
     color: #908858;
     text-align: left;
 }
 
-#results th {
+#runeStat {
     text-align: center;
+    font-size: 0.85em;
+}
+
+#runeBasicInfo {
+    table-layout: fixed;
+    width: 100%;
+    text-align: center;
+}
+
+#runeData {
+    table-layout: fixed;
+    width: 100%;
+    text-align: center;
+    font-size: 0.70em;
+}
+
+#runeData td:nth-child(1) {
+    transform: scale(0.50, 0.50);
+    height: 75px;
 }
 
 #results {
@@ -33,7 +56,19 @@ th {
     text-align: center;
 }
 
+#results th {
+    text-align: center;
+}
+
 #results tr:nth-child(even) {
+    background-color: #20100a;
+}
+
+.OddRow {
+    background-color: rgba(47, 12, 16, 0.42);
+}
+
+.EvenRow {
     background-color: #20100a;
 }
 

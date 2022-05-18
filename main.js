@@ -1,12 +1,12 @@
 // Modules to control application life and create native browser window
-const { app, BrowserWindow } = require('electron');
+const { app, BrowserWindow, ipcMain } = require('electron');
 const path = require('path');
 
 function createWindow() {
 	// Create the browser window.
 	const mainWindow = new BrowserWindow({
-		icon: __dirname + '/img/icon.ico',
-		width: 820,
+		icon: __dirname + './img/icon.ico',
+		width: 900,
 		height: 800,
 		resizable: false,
 		frame: true,
@@ -19,7 +19,7 @@ function createWindow() {
 	mainWindow.setMenuBarVisibility(true);
 
 	// and load the index.html of the app.
-	mainWindow.loadFile('index.html');
+	mainWindow.loadFile('./html/index.html');
 
 	// Open the DevTools.
 	// mainWindow.webContents.openDevTools()

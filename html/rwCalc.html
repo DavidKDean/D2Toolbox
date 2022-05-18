@@ -2,13 +2,15 @@
 <html lang="en">
 
 <head>
-	<link rel="stylesheet" type="text/css" href="css/runeword.css" />
-	<script src="js/runeword.js"></script>
+	<link rel="stylesheet" type="text/css" href="../css/diablo2.css" />
+	<script type="text/javascript" src="../js/runes.js"></script>
+	<script type="text/javascript" src="../js/runeword.js"></script>
 	<title>Runeword Calculator</title>
 </head>
 
 <body onload="pageLoad()">
-	<h1><div id="boxes_diablo2">Runeword Calculator & Filter</div></h1>
+	<div id="boxes_diablo2"><h1>Runeword Calculator</h1>
+	<a href="index.html" rel="Main Menu" target="_self"><h3>Main Menu</h3></a></div>
 		<form>
 			<div id="boxes_diablo2">
 			<table id="filters">
@@ -176,9 +178,9 @@
 							<tr>
 								<td colspan="3">
 									<input type="button" class="button_add" id="selectAllRunes" title="Select All Runes"
-										onclick="SelectAllRunes();return false;" value="Select All Runes" />
+										onclick="SelectAllRunes(); false;" value="Select All Runes" />
 									<input type="button" class="button_add" id="deselectAllRunes" title="Deselect All Runes"
-										onclick="DeselectAllRunes();return false;" value="Deselect All Runes" />
+										onclick="DeselectAllRunes(); false;" value="Deselect All Runes" />
 								</td>
 							</tr>
 						</table>
@@ -281,11 +283,11 @@
 							<tr>
 								<td colspan="2">
 									<input type="button" class="button_add" id="selectArmor" title="Select All Armors"
-										onclick="SelectAllArmor();return false;" value="Select All Armor" />
+										onclick="SelectAllArmor(); false;" value="Select All Armor" />
 									<input type="button" class="button_add" id="selectWeapons" title="Select All Weapons"
-										onclick="SelectAllWeapons();return false;" value="Select All Weapons" />
+										onclick="SelectAllWeapons(); false;" value="Select All Weapons" />
 									<input type="button" class="button_add" id="deselectAllBases" title="Deselect All Bases"
-										onclick="DeselectAllBases();return false;" value="Deselect All" >
+										onclick="DeselectAllBases(); false;" value="Deselect All" >
 								</td>
 							</tr>
 						</table>
@@ -293,12 +295,11 @@
 				</tr>
 				<tr>
 					<td>
+						<input type="radio" name="runeSelect" id="any" value="any" />
+						<label for="any">Show runewords that use <b>ANY</b> of the selected runes.</label>
+						<br />
 						<input type="radio" name="runeSelect" id="only" value="only" />
 						<label for="only">Show runewords that <b>ONLY</b> use the selected runes.</label>
-						<br />
-						<input type="radio" name="runeSelect" id="any" value="any" />
-						<label for="any">Show runewords that use <b>ANY</b> of the selected
-							runes.</label>
 						<br />
 						<input type="radio" name="runeSelect" id="one" value="one" />
 						<label for="one">Show runewords that are missing up to <b>ONE</b> rune.</label>
